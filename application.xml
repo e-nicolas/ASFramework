@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<application xmlns="http://ns.adobe.com/air/application/24.0">
+	
+	<id>ASFramework</id> 
+	<versionNumber>1.0</versionNumber> 
+	<filename>ASFramework</filename> 
+	
+	<name>ASFramework</name> 
+	<description></description> 
+	<copyright></copyright> 
+	
+	<initialWindow> 
+		<title>ASFramework</title> 
+		<content>ASFramework.swf</content> 
+		<systemChrome>standard</systemChrome> 
+		<transparent>false</transparent> 
+		<visible>true</visible> 
+		<minimizable>true</minimizable> 
+		<maximizable>true</maximizable> 
+		<resizable>true</resizable> 
+	</initialWindow> 
+	
+	<!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+</application>
