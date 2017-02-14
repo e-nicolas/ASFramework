@@ -2,6 +2,8 @@
 
 Framework developed in Action Script 3 for Adobe AIR applications.
 
+[Source files](src/com/emmanouil)
+
 ### Components
 
 ##### UITableView
@@ -142,6 +144,11 @@ subViewController.AddSegues("gotosecond", first, second);
 //perform segue
 first.performSegueWithIdentifier("gotosecond");	
 ```
+
+## Libraries
+[Air-Mobile-ScrollController](https://github.com/freshplanet/Air-Mobile-ScrollController)
+
+[TweenLite](https://greensock.com/tweenlite-as)
 
 License
 ----
