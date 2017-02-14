@@ -5,7 +5,6 @@ Framework developed in Action Script 3 for Adobe AIR applications.
 ### Components
 
 ##### UITableView
-#
 ```actionscript
 var uitableView:UITableView = new UITableView(500, 500);
 uitableView.AddReusableCellWithIdentifier("default", new UITableViewCell(stage.stageWidth, 50));
@@ -33,7 +32,6 @@ private function cellForRowAtIndexPath(indexPath:Object):UITableViewCell {
 }
 ```
 ##### ToastControllerView
-#
 ```actionscript
 var toastScreenMessage:UIToastControllerView = new UIToastControllerView();
 this.addChild(toastScreenMessage);
@@ -42,7 +40,6 @@ toastScreenMessage.mensagem = "Teste";
 toastScreenMessage.showWithTimer(ToastScreenAnimation.MID_CENTER, 2);
 ```
 ##### UIAlertControllerView
-#
 ```actionscript
 var alertController:UIAlertControllerView = new UIAlertControllerView();
 this.addChild(alertController);
@@ -56,7 +53,6 @@ alertController.alertType = UIAlertType.DEFAULT;
 alertController.show();
 ```
 ##### UISliderView
-#
 ```actionscript
 var sliderView:UISliderView = new UISliderView(200);
 sliderView.minimumValue = 0;
@@ -64,13 +60,11 @@ sliderView.maximumValue = 10;
 this.addChild(sliderView);
 ```
 ##### UISwitcher
-#
 ```actionscript
 var switcherView:UISwitcher = new UISwitcher(50, false);
 this.addChild(switcherView);
 ```
 ##### UIButton
-#
 ```actionscript
 var button:UIButton = new UIButton(50, 50, 0);
 button.label = "CLICK ME";
@@ -81,7 +75,6 @@ button.label = "CLICK ME";
 this.addChild(button);
 ```
 ##### UITextField
-#
 ```actionscript
 var editor:InputTextOptions = new InputTextOptions(InputTextType.LINE, false);
 //editor.softKeyboardType = SoftKeyboardType.EMAIL;
@@ -95,7 +88,6 @@ textInput.focusColor = 0x111111;
 this.addChild(textInput);
 ```
 ##### CameraEncoder
-#
 ```actionscript
 var cameraEncoder:CameraEncoder = new CameraEncoder(false);
 cameraEncoder.width = stage.stageWidth;
@@ -105,14 +97,12 @@ cameraEncoder.StartStream("rtmp://myServer/myPublishPoint", "streamName");
 this.addChild(cameraEncoder);
 ```
 ##### VideoPlayer
-#
 ```actionscript
 var videoPlayer:VideoPlayer = new VideoPlayer(stage.stageWidth, stage.stageHeight);
 videoPlayer.play("http://www.w3schools.com/html/mov_bbb.mp4");
 this.addChild(videoPlayer);
 ```
 ##### ViewManager
-#
 ```actionscript
 //create views
 var masterView1:UIView = new UIView();
@@ -128,7 +118,6 @@ ViewManager.AddViews(masterView2, "masterView2");
 ViewManager.ChangeViewTo("masterView2", UIViewTransitionAnimation.LEFT_TO_RIGTH);
 ```
 ##### SubViewController
-#
 ```actionscript
 var subViewController:SubViewController = new SubViewController();
 this.addChild(subViewController);
